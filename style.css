@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbar*/
+#cabeçalho {
+	display: flex;
+	background-color: rgb(0, 119, 6);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#cabeçalho .navbar-container {
+	padding: 10px 0;
+	width: 4vw;
+}
+
+#cabeçalho .navbar-container img {
+	width: 15vw;
+	margin-left: 1vw;
+}
+
+/*Main*/
+#main_index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Logo do Sime no index*/
+#main_index #sec1 #img1 {
+    margin-top: 15vh;
+    border-radius: 10%;
+    width: 350px;
+}
+
+/*Botões para cadastro online/presencial*/
+
+#main_index .aluno {
+    background-color: rgb(0, 119, 6);
+	justify-content: center;
+    border: none;
+    padding: 1vw;
+    color: white;
+	border-radius: 10vw;
+	font-size: 25px;
+    cursor: pointer;
+	margin-top: 2vh;
+}
+
+/*Footer*/
+#footer {
+	background: rgb(6, 102, 10);
+	color: white;
+	padding: 4vh 0;
+	margin-top: 7vh;
+}
+
+#footer .footer-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60vw;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+	margin: 1vh 4vw;
+	list-style: none;
+}
+
+#footer .footer-content .footer-menu .titulos-footer {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffab0e;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+	margin: 1vw 0;
+    cursor: pointer;
+	font-size: 18px;
+	
+}
+
+/*Footer Info*/
+.footer-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 55vw;
+	margin: 0 22.5vw;
+	font-weight: bold;
+	color: #ffab0e;
+	font-size: 13px;
+	padding-top: 11vh;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+    margin: 1.5vh 1.5vw;
+	cursor: pointer;
+	transition: all 400ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+	color: #ffab0e;
+	cursor: pointer;
+}
+
+.footer-info .icones .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 1vw;
+}
+
+.footer-info .icones .country {
+    cursor: pointer;
+}
+
+.footer-info .icones .country .brazil-flag {
+	height: 2vh;
+	width: auto;
+	display: inline-block;
+	margin-left: 0.5vw;
+}
