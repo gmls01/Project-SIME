@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#cad {
+    background-color: #00000015;
+}
+
 /*index*/
 /*Navbar*/
 #cabeçalho {
@@ -136,18 +140,25 @@
 
 /*Cadastro*/
 .cadastro {
-	width: 30vw;
-	margin-top: 100px;
+	width: 35vw;
+	margin-top: 150px;
+    margin-left: 27vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 6rem;
+    background-color: #fff;
+    box-shadow: 2vw 3vh rgba(6, 6, 6, 0.141);
 }
 
 .cadastro-cabeçalho {
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
+}
+
+.title {
+    font-size: 1.5rem;
 }
 
 /*Dados do usuário*/
@@ -254,6 +265,21 @@
 }
 
 @media screen and (max-width: 1064px) {
+    
+    .cadastro {
+        width: auto;
+        margin-left: 0.1vw;
+    }
+
+    .input-group{
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+
     .gender-inputs {
         margin-top: 2rem;
     }
