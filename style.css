@@ -238,9 +238,30 @@
 }
 
 .gender-input label {
-    font-size: 0.81rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #000000c0;
+    cursor: pointer;
+}
+
+/*Dados de PcD do usuário*/
+.deficiencia-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.deficiencia-title h6 {
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+.deficiencia-input label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000c0;
+    cursor: pointer;
 }
 
 .continue-button button {
