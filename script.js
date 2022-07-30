@@ -1,6 +1,6 @@
-function IFM (){
-    var select = document.querySelector('#education');
-    var ensino = select.options[select.selectedIndex].value;
+function IFM(){
+    var selector = document.querySelector('#education');
+    var ensino = selector.options[selector.selectedIndex].value;
 
     if (ensino == 'infantil'){
         location.href = 'https://pt.wikipedia.org/wiki/Elon_Musk';
