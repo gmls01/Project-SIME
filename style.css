@@ -3,8 +3,9 @@
     padding: 0;
 }
 
+/*body do cadastro*/
 #cad {
-    background-color: #00000015;
+    background-color: #00000028;
 }
 
 /*index*/
@@ -28,12 +29,6 @@
 }
 
 /*Main*/
-#main_index {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 /*Logo do Sime no index*/
 #main_index #sec1 #img1 {
     margin-top: 15vh;
@@ -42,7 +37,6 @@
 }
 
 /*Botões para cadastro online/presencial*/
-
 #main_index .aluno {
     background-color: rgb(0, 119, 6);
 	justify-content: center;
@@ -53,6 +47,12 @@
 	font-size: 25px;
     cursor: pointer;
 	margin-top: 2vh;
+}
+
+#main_index .aluno:hover {
+    transition: 500ms ease-in-out;
+    color: #ffab0e;
+	cursor: pointer;
 }
 
 /*Footer*/
@@ -112,10 +112,10 @@
 .footer-info .footer-info-items .footer-info-item {
     margin: 1.5vh 1.5vw;
 	cursor: pointer;
-	transition: all 400ms ease;
 }
 
 #footer .footer-content .footer-menu .footer-menu-item:hover {
+    transition: all 500ms ease;
 	color: #ffab0e;
 	cursor: pointer;
 }
@@ -247,7 +247,7 @@
 /*Dados de PcD do usuário*/
 .deficiencia-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 0.62rem;
     padding: 0 .5rem;
 }

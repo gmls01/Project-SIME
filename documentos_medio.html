@@ -8,7 +8,7 @@
     <script src="script.js"></script>
     <title>SIME</title>
 </head>
-<body>
+<body id="cad">
 
 <!--Cabeçalho-->
 <!--Navbar-->
@@ -20,10 +20,146 @@
 
 <!--Showcase do site-->
 <!--Main--> 
-<main>
-
-</main>
-
+<main id="main_index">
+    <!--Cabeçalho do cadastro-->
+        <div class="cadastro">
+            <form action="#" method="post">
+                <div class="cadastro-cabeçalho">
+                    <div class="title">
+                        <h1>Cadastro do Ensino Médio</h1>
+                    </div>
+                </div>
+    
+    <!--Dados do usuário-->
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome (Responsável)</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome (Responsável)</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="age">Idade (Responsável)</label>
+                        <input id="age" type="number" name="age" placeholder="Digite sua idade" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="firstname-student">Primeiro Nome (Aluno)</label>
+                        <input id="firstname-student" type="text" name="firstname-student" placeholder="Digite seu primeiro nome" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="lastname-student">Sobrenome (Aluno)</label>
+                        <input id="lastname-student" type="text" name="lastname-student" placeholder="Digite seu sobrenome" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="age-student">Idade (Aluno)</label>
+                        <input id="age-student" type="number" name="age-student" placeholder="Digite sua idade" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="rg">RG (Responsável)</label>
+                        <input id="rg" type="text" name="rg" placeholder="Digite o número do seu RG" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="cpf">CPF (Responsável)</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="Digite o número do seu CPF" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="rg-student">RG (Aluno)</label>
+                        <input id="rg-student" type="text" name="rg-student" placeholder="Digite o número do seu RG" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="cpf-student">CPF (Aluno)</label>
+                        <input id="cpf-student" type="text" name="cpf-student" placeholder="Digite o número do seu CPF" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                    </div>
+                </div>
+    
+    <!--Dados do gênero do usuário-->
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero (Aluno)</h6>
+                    </div>
+    
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender" value="Feminino">
+                            <label for="female">Feminino</label>
+                        </div>
+    
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender" value="Masculino">
+                            <label for="male">Masculino</label>
+                        </div>
+    
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender" value="Outros">
+                            <label for="others">Outros</label>
+                        </div>
+    
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender" value="Prefiro não dizer">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <!--Dados de PcD do usuário-->
+                <div class="deficiencia-inputs">
+                    <div class="deficiencia-title">
+                        <h6>Pessoa com Deficiência (PcD)</h6>
+                    </div>
+    
+                    <div class="deficiencia-group">
+                        <div class="deficiencia-input">
+                            <input id="yes" type="radio" name="defi" value="Sim">
+                            <label for="female">Sim</label>
+                        </div>
+                        
+                        <div class="deficiencia-input">
+                            <input id="no" type="radio" name="defi" value="Nao">
+                            <label for="male">Não</label>
+                        </div>
+    
+                    </div>
+                </div>
+    
+    <!--Botão para prosseguir-->
+                <div class="continue-button">
+                    <button type="submit">Continuar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
 <!--Rodapé-->
 <!--Footer-->
 <footer id="footer">
