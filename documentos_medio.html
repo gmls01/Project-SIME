@@ -12,21 +12,27 @@
 
 <!--Cabeçalho-->
 <!--Navbar-->
-<navbar id="cabeçalho">
+<navbar id="cabecalho">
     <div class="navbar-container">
         <img src="Imagens/S I M E - png branco.png" alt="logo-do-cabeçalho">
+        <ul class="navbar-items">
+            <a href="documentos_infantil.html"><li class="navbar-item">ENSINO INFANTIL</li></a>
+            <a href="documentos_fundamental.html" id="li_cabecalho"><li class="navbar-item">ENSINO FUNDAMENTAL</li></a>
+            <a href="cadastro.html" ><li class="navbar-item">CADASTRO</li></a>
+            <a href="index.html" ><li class="navbar-item">HOME</li></a>
+        </ul>
     </div>
 </navbar>
 
 <!--Showcase do site-->
 <!--Main--> 
-<main id="main_index">
+<main>
     <!--Cabeçalho do cadastro-->
         <div class="cadastro">
             <form action="#" method="post">
                 <div class="cadastro-cabeçalho">
                     <div class="title">
-                        <h1>Cadastro do Ensino Médio</h1>
+                        <h1>Cadastro do <br>Ensino Médio</h1>
                     </div>
                 </div>
     
@@ -86,12 +92,17 @@
                         <label for="email">E-mail</label>
                         <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
                     </div>
-    
+     
+                    <div class="input-box">
+                        <label for="confirmEmail">Confirme seu E-mail</label>
+                        <input id="confirmEmail" type="email" name="confirmEmail" placeholder="Digite seu e-mail novamente" required>
+                    </div>
+
                     <div class="input-box">
                         <label for="number">Celular</label>
                         <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
                     </div>
-    
+                   
                     <div class="input-box">
                         <label for="password">Senha</label>
                         <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
@@ -101,6 +112,12 @@
                         <label for="confirmPassword">Confirme sua Senha</label>
                         <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
                     </div>
+                    
+                    <div class="input-box">
+                        <label for="arquivo_medio">Certificado/Histórico do ensino fundamental</label>
+                        <input id="arquivo_medio" type="file" name="arquivo_medio" placeholder="Selecione um arquivo" required>
+                    </div>
+                                        
                 </div>
     
     <!--Dados do gênero do usuário-->

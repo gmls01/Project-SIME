@@ -10,7 +10,7 @@
 
 /*index*/
 /*Navbar*/
-#cabeçalho {
+#cabecalho {
 	display: flex;
 	background-color: rgb(0, 119, 6);
 	position: fixed;
@@ -18,17 +18,50 @@
 	width: 100%;
 }
 
-#cabeçalho .navbar-container {
-	padding: 10px 0;
-	width: 4vw;
+#cabecalho .navbar-container {
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 5vw;
+    padding: 20px 0;
 }
 
-#cabeçalho .navbar-container img {
+#cabecalho .navbar-container a {
+    text-decoration: none;
+}
+
+#cabecalho .navbar-container ul {
+	display: flex;
+	margin-left: 55VW;
+    list-style: none;
+	font-weight: bold;
+    align-items: flex-end;
+
+}
+
+#cabecalho .navbar-container ul li {
+	padding: 0 20px;
+	transition: all 300ms ease;
+    color: #ffffff;
+}
+
+#cabecalho .navbar-container ul li:hover {
+	color: #ffab0e;
+	cursor: pointer;
+}
+
+#cabecalho .navbar-container img {
 	width: 15vw;
 	margin-left: 1vw;
 }
 
 /*Main*/
+#main_index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 /*Logo do Sime no index*/
 #main_index #sec1 #img1 {
     margin-top: 15vh;
